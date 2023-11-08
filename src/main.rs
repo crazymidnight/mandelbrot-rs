@@ -61,4 +61,5 @@ fn test_parse_complex() {
             im: -0.0625
         })
     );
+    assert_eq!(parse_complex(",-0.0625"), None);
 }
